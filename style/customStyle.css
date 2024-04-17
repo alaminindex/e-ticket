@@ -1,0 +1,17 @@
+/* main Layout Container */
+.mainLayoutContainer{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+
+/* <!--Custom Class google font Raleway--> */
+.font-Raleway{
+    font-family: "Raleway", sans-serif;
+}
+
+/* <!--Custom Class google font Inter--> */
+.font-Inter{
+    font-family: "Inter", sans-serif;
+}
