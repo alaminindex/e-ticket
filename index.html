@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="cupcake">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,44 +31,93 @@
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Item 1</a></li>
-                      <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </li>
-                      <li><a>Item 3</a></li>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 av-links">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Destination</a></li>
+                      <li><a>Search</a></li>
                     </ul>
                   </div>
                   <a class="text-3xl font-extrabold font-Raleway">E-Ticket</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                      <details>
-                        <summary>Parent</summary>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                  <ul class="menu menu-horizontal px-1 nav-links">
+                    <li><a >Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
-                  <a class="btn">Button</a>
+                  <a class="btn bus-btn">Bus <img src="images/bus-icon.png" alt=""></a>
                 </div>
               </div>
         </header>
         <!-- Main Section Start Here -->
-        <main></main>
+        <main>
+          <!-- Banner Section -->
+          <section class="banner-container">
+            <div class="hero mt-[40px] mb-[190px] mx-auto max-w-[1171px]  h-[550px]" style="background-image: url(images/banner.png);">
+              <div class="hero-overlay bg-opacity-50 rounded-[2rem]"></div>
+              <div class="hero-content text-center text-neutral-content">
+                <div class="">
+                  <h1 class="mb-5 banner-title mx-auto font-Raleway">End-to-End Travel with <span class="e-paribahan">E Paribahan</span></h1>
+                  <p class="mb-5 banner-disc">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                  <a href="#"><button class="banner-btn font-Raleway">Get Started</button></a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Ticket Section -->
+          <section class="ticket-container">
+            <h1 class="ticket-title font-Raleway">Best offers for you</h1>
+            <div class="ticket-div flex max-w-[1171px] mx-auto justify-between mb-16">
+              <!-- 15% Off -->
+              <div class="first-ticket flex ">
+                <div class="off-side-15">
+                  <h1>15% OFF
+                    <span class="p"><br>on your next purchase</span>
+                    <span class="u">use by January 2024</span></h1>
+                </div>
+                <div class="ver-divider-15">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="220" viewBox="0 0 48 220" fill="none">
+                    <path d="M2.09815e-06 -3.81596e-07C1.82261e-06 3.15172 0.620775 6.27259 1.82689 9.1844C3.033 12.0962 4.80083 14.742 7.02943 16.9706C9.25804 19.1992 11.9038 20.967 14.8156 22.1731C17.7274 23.3792 20.8483 24 24 24C27.1517 24 30.2726 23.3792 33.1844 22.1731C36.0962 20.967 38.742 19.1992 40.9706 16.9706C43.1992 14.742 44.967 12.0962 46.1731 9.1844C47.3792 6.27259 48 3.15173 48 1.90735e-06L2.09815e-06 -3.81596e-07Z" fill="white"/>
+                    <path d="M48 220C48 216.848 47.3792 213.727 46.1731 210.815C44.967 207.904 43.1992 205.258 40.9706 203.029C38.742 200.801 36.0962 199.033 33.1844 197.827C30.2726 196.621 27.1517 196 24 196C20.8483 196 17.7274 196.621 14.8156 197.827C11.9038 199.033 9.25804 200.801 7.02944 203.029C4.80083 205.258 3.033 207.904 1.82689 210.815C0.620778 213.727 -2.75532e-07 216.848 0 220L48 220Z" fill="white"/>
+                    <line x1="25" y1="32" x2="25" y2="188" stroke="white" stroke-width="2" stroke-dasharray="5 5"/>
+                  </svg>
+                </div>
+                <div class="cupon-side-15 font-Raleway">
+                  <h1>NEW 15
+                    <span class="c">Coupon Code</span></h1>
+                </div>
+              </div>
+
+              <!-- 20% Off -->
+              <div class="second-ticket flex ">
+                <div class="off-side-20">
+                  <h1>20% OFF
+                    <span class="p"><br>on your next purchase</span>
+                    <span class="u">use by January 2024</span></h1>
+                </div>
+                <div class="ver-divider-20">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="220" viewBox="0 0 48 220" fill="none">
+                    <path d="M2.09815e-06 -3.81596e-07C1.82261e-06 3.15172 0.620775 6.27259 1.82689 9.1844C3.033 12.0962 4.80083 14.742 7.02943 16.9706C9.25804 19.1992 11.9038 20.967 14.8156 22.1731C17.7274 23.3792 20.8483 24 24 24C27.1517 24 30.2726 23.3792 33.1844 22.1731C36.0962 20.967 38.742 19.1992 40.9706 16.9706C43.1992 14.742 44.967 12.0962 46.1731 9.1844C47.3792 6.27259 48 3.15173 48 1.90735e-06L2.09815e-06 -3.81596e-07Z" fill="white"/>
+                    <path d="M48 220C48 216.848 47.3792 213.727 46.1731 210.815C44.967 207.904 43.1992 205.258 40.9706 203.029C38.742 200.801 36.0962 199.033 33.1844 197.827C30.2726 196.621 27.1517 196 24 196C20.8483 196 17.7274 196.621 14.8156 197.827C11.9038 199.033 9.25804 200.801 7.02944 203.029C4.80083 205.258 3.033 207.904 1.82689 210.815C0.620778 213.727 -2.75532e-07 216.848 0 220L48 220Z" fill="white"/>
+                    <line x1="25" y1="32" x2="25" y2="188" stroke="white" stroke-width="2" stroke-dasharray="5 5"/>
+                  </svg>
+                </div>
+                <div class="cupon-side-20 font-Raleway">
+                  <h1>NEW 20
+                    <span class="c">Coupon Code</span></h1>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
         <!-- Footer Section Start Here -->
-        <footer></footer> 
+        <footer>
+          
+        </footer> 
     </div>
     <!-- ------------------------------------ -->
     <!-- Script Link here -->
