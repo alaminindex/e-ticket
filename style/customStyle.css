@@ -151,3 +151,54 @@
     font-weight: 500;
     color: rgba(43, 41, 41, 0.52);
 }
+
+.hr{
+    width: 100%;
+    height: 2208px;
+    flex-shrink: 0;
+    border-radius: 88px 88px 0px 0px;
+    border-top: 2px solid #1DD100;
+    background: #F7F8F8;
+    padding: 120px 135px;
+}
+
+.offer-btn{
+    padding: 21px 30px;
+    border-radius: 12px;
+    border: 1px solid #1DD100;
+    color:  #1DD100;
+    font-weight: 700;
+
+}
+.offer-btn:hover{
+    border: 1px solid #000000;
+    color:  #000000;
+
+}
+
+.hr-text-container{
+    text-align: center;
+}
+.hr-text-container > h1{
+    color: #030712;
+    font-size: 40px;
+    font-weight: 700;
+}
+.hr-text-container > p{
+    width: 736px;
+    color: rgba(3, 7, 18, 0.60);
+    margin: 50px auto;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.paribahan-ticket-container{
+    width: 1170px;
+    height: 418px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background:  #000000;
+}
